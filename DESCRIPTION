@@ -1,7 +1,7 @@
 Package: ClusterTools
 Type: Package
 Title: Convenience Tools For Clusteranalyses
-Version: 0.1.0
+Version: 0.1.1
 Author: Veit Zoche-Golob
 Maintainer: Veit Zoche-Golob <zoche-golob@freenet.de>
 Description: Heatmaps with marginal dendrogram(s). Parallel execution and validation

@@ -1,7 +1,7 @@
 Package: ClusterTools
 Type: Package
 Title: Convenience Tools For Clusteranalyses
-Version: 0.1.0
+Version: 0.1.1
 Author: Veit Zoche-Golob
 Maintainer: Veit Zoche-Golob <zoche-golob@freenet.de>
 Description: Heatmaps with marginal dendrogram(s). Parallel execution and validation
@@ -9,6 +9,6 @@ Description: Heatmaps with marginal dendrogram(s). Parallel execution and valida
     of the results.
 License: GPL-3
 Encoding: UTF-8
-Imports: assertive, cluster, dplyr, latticeExtra, fpc, tibble, tidyr
+Imports: assertive, cluster, dplyr, lattice, latticeExtra, fpc, tibble, tidyr
 LazyData: true
 RoxygenNote: 6.0.1

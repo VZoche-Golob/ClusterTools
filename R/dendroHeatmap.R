@@ -36,7 +36,7 @@ dendroHeatmap <- function(
 
   if (!is.null(dendCol)) {
     colOrd <- order.dendrogram(dendCol)
-    levelplot(
+    lattice::levelplot(
       t(x[rowOrd, colOrd]),
       aspect = "fill",
       scales = list(x = list(rot = 90, labels = colLabels), y = list(cex = 0.5)),
@@ -56,7 +56,7 @@ dendroHeatmap <- function(
       ...
     )
   } else {
-    levelplot(
+    lattice::levelplot(
       t(x[rowOrd, ]),
       aspect = "fill",
       scales = list(x = list(rot = 90, labels = colLabels), y = list(cex = 0.5)),

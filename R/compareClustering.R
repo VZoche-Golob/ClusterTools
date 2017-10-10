@@ -35,6 +35,8 @@
 #'         \item{withinVsBetween}{\code{fpc::\link[fpc]{cluster.stats}$wb.ratio}}
 #'     }
 #'
+#' @import snowfall
+#'
 #' @export
 
 compareClustering <- function(
@@ -46,6 +48,8 @@ compareClustering <- function(
   sfCpus = 2,
   ...
 ) {
+
+  require(snowfall, quietly = TRUE)
 
   assertive::assert_is_all_of(dataMatrix, "matrix")
   assertive::assert_all_are_true(

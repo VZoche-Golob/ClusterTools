@@ -6,3 +6,4 @@ Heatmaps with marginal dendrogram(s). Parallel execution and validation
 of a clusteranalysis using different methods and or distance measures, comparision
 of the results.
 
+Licence: GNU GPL-v3
